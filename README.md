@@ -1,4 +1,4 @@
-# Video Chat App – Connect Now
+# 📽️ Connect Now
 
 A simple peer-to-peer video chat app using **PeerJS** and **Socket.IO**. Users can join or create rooms to talk, share video, and chat in real time.
 
@@ -11,7 +11,7 @@ A simple peer-to-peer video chat app using **PeerJS** and **Socket.IO**. Users c
 -->
 ---
 
-## Details
+## 📋 Details
 
 - Users can:
   - **Create a room** with a Room ID and password.
@@ -27,7 +27,7 @@ A simple peer-to-peer video chat app using **PeerJS** and **Socket.IO**. Users c
 
 ---
 
-## 🛠Tech Stack
+## 🛠 Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express, Socket.IO, PeerJS
