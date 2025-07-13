@@ -1,0 +1,103 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1000px;
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      color: #3a86ff;
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin: 0.5rem 0 1.5rem;
+    }
+
+    .header input {
+      padding: 0.75rem;
+      font-size: 1rem;
+      width: 250px;
+      border: none;
+      border-radius: 8px;
+      background-color: #2a2a2a;
+      color: white;
+    }
+
+    .main {
+      display: flex;
+      gap: 2rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .section {
+      flex: 1 1 45%;
+      background-color: #2a2a2a;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #3a86ff;
+      margin-bottom: 1rem;
+    }
+
+    .section form,.section button {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: stretch;
+    }
+
+    .section input {
+      padding: 0.7rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      background-color: #1f1f1f;
+      color: white;
+    }
+
+    .section button {
+      padding: 0.8rem;
+      background-color: #3a86ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .section button:hover {
+      background-color: #265df2;
+    }
