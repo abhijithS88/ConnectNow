@@ -13,7 +13,6 @@ A simple peer-to-peer video chat app using **PeerJS** and **Socket.IO**. Users c
 
 ## Details
 
-- This is a **single-page video chat app**.
 - Users can:
   - **Create a room** with a Room ID and password.
   - **Join a room** using the ID and password shared by another person.
